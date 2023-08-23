@@ -1,0 +1,17 @@
+@font-face {
+  font-family: 'Digital Numbers';
+  src: url('../public/fonts/DigitalNumbers.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  margin: 0;
+  font-family: 'Digital Numbers', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: 'Digital Numbers', sans-serif;
+}

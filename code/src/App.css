@@ -1,0 +1,134 @@
+* {
+    color: white;
+}
+
+.App {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(purple, #000000 50%, purple);
+}
+
+.clock {
+    text-align: center;
+    opacity: 0; /* Set initial opacity to 0 */
+    animation-name: fadeIn; /* Name of the animation */
+    animation-duration: 1s; /* Duration of the animation */
+    animation-timing-function: ease-in; /* Timing function for animation */
+    animation-fill-mode: forwards; /* Keep the final state after animation */
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0; /* Start with opacity 0 */
+    }
+    to {
+        opacity: 1; /* End with opacity 1 */
+    }
+}
+
+.options {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+.break-setting {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.session-setting {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#timer-label {
+    text-align: center;
+}
+
+#time-left {
+    font-size: 36px;
+    margin: 10px auto;
+}
+
+.pad {
+    background: #3d94f6 linear-gradient(to bottom, black 5%, #4b1e51 100%);
+    display: inline-flex; /* Use flex container */
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Impact;
+    font-size: 26px;
+    font-weight: bold;
+    /*padding: 5px 5px;*/
+    text-decoration: none;;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    align-items: center; /* Vertically center content */
+    justify-content: center; /* Horizontally center content */
+    margin: 10px 10px;
+}
+
+.pad:hover {
+    background: black linear-gradient(to bottom, black 5%, #700306 100%);
+}
+
+.pad:active {
+    position: relative;
+    top: 1px;
+}
+
+.pad_start_stop {
+    /*box-shadow: 0 0 0 2px black;*/
+    background: #3d94f6 linear-gradient(to bottom, black 5%, #4b1e51 100%);
+    display: inline-flex; /* Use flex container */
+    cursor: pointer;
+    color: #ffffff;
+    /*padding: 5px 5px;*/
+    text-decoration: none;;
+    border-radius: 50%;
+    width: 190px;
+    height: 60px;
+    align-items: center; /* Vertically center content */
+    justify-content: center; /* Horizontally center content */
+    margin: 10px 10px;
+}
+
+.pad_start_stop:hover {
+    background: black linear-gradient(to bottom, black 5%, #700306 100%);
+}
+
+.pad_start_stop:active {
+    position: relative;
+    top: 1px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pad_reset {
+    cursor: pointer;
+}
+
+.pad_reset:hover {
+    color: red
+}
+
+.pad_reset:active {
+    position: relative;
+    top: 1px;
+}
+
+.break {
+    margin-right: 60px;
+}
