@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/25_clock/static/css/main.b5d77c6a.css",
+    "main.js": "/25_clock/static/js/main.ccc7df36.js",
+    "static/media/beep.wav": "/25_clock/static/media/beep.372995a9b53513b6fd79.wav",
+    "static/media/DigitalNumbers.ttf": "/25_clock/static/media/DigitalNumbers.cc3aac3fb51de512bd28.ttf",
+    "index.html": "/25_clock/index.html",
+    "main.b5d77c6a.css.map": "/25_clock/static/css/main.b5d77c6a.css.map",
+    "main.ccc7df36.js.map": "/25_clock/static/js/main.ccc7df36.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b5d77c6a.css",
+    "static/js/main.ccc7df36.js"
+  ]
+}
